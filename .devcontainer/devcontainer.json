@@ -6,6 +6,5 @@
 	],
 	"runArgs": [
 		"--name=rest-server"
-	],
-	"postCreateCommand": "npm init -y"
+	]
 }
