@@ -15,8 +15,7 @@ Este proyecto usa un Dev Container para un entorno de desarrollo aislado con Nod
   "name": "Rest Web",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
   "forwardPorts": [3000],
-  "runArgs": ["--name=rest-server"],
-  "postCreateCommand": "npm init -y"
+  "runArgs": ["--name=rest-server"]
 }
 ```
 
