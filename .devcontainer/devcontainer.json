@@ -1,10 +1,11 @@
 {
 	"name": "Rest Web",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "dev",
+	"workspaceFolder": "/workspace/07-rest-web",
 	"forwardPorts": [
-		3000
+		3000,
+		5432
 	],
-	"runArgs": [
-		"--name=rest-server"
-	]
+	"remoteUser": "node"
 }
